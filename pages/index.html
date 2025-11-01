@@ -6,23 +6,81 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="/styles/main.css">
     <script src="/scripts/main.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
 </head>
 <body>
     <header>
         <h1>[Website Name]</h1>
-        <a href = "/pages/about.html"> About Us </a>
+        <nav>
+            <a href = "/pages/about.html"> About Us </a>
+        </nav>
     </header>
     <main>
-        <div class = "overview">
-            <h2>Calculus-Based Physics</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.</p>
+        <div class = "overview-section">
+            <div class="overview-details">
+                <h2>Calculus-Based Physics</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.</p>
+            </div>
+            <div class="overview-image-container">
+                <img src="/images/physics_image.jpg" alt="Physics Image">
+            </div>
         </div>
-        <div class = "learn-more">
-            <h2>Learn More</h2>
+        <div class="fun-fact-section"> 
+            <div class="learn-more-details">
+                <h2>Did you know?</h2>
+                <div>Bananas are slightly radioactive due to their potassium content.</div>
+                <button>Tell me more</button>
+            </div>
+            <div class="learn-more-image-container">
+                <img src="/images/banana.jpg" alt="Banana Image">
+            </div>
         </div>
-        <div class = "importance">
-            <h2>Importance of Calculus-Based Physics</h2>
+        <div class="learn-more-section">
+            <div class="temperature-and-heat-card">
+                <img src="/images/temperature_heat.jpg" alt="Temperature and Heat Image">
+                <div class="card-content">
+                    <h3>Temperature and Heat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus.</p>
+                    <a href="#">Visit Site <span class="material-symbols-outlined"> arrow_forward</span></a>
+            </div>
+            <div class="fluids-card">
+                <img src="/images/fluids.jpg" alt="Fluids Image">
+                <div class="card-content">
+                    <h3>Fluids</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus.</p>
+                    <a href="#">Visit Site <span class="material-symbols-outlined"> arrow_forward</span></a>
+            </div>
+        </div>
+        <div class = "importance-section">
+            <h2>Why Calculus-Based Physics matters</h2>
+            <div class="for-computer-science-content">
+                <h3>For Computer Science</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.</p>
+            </div>
+            <div class="for-emc-content">
+                <h3>For Entertainment and Multimedia Computing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.</p>
+            </div>
         </div>
     </main>
+    <footer>
+        <div>
+            <h3>[Site Title]</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. </p>
+        </div>
+        <div>
+            <h3 href="#">Quick Links</h3>
+            <a href="#">Overview</a>
+            <a href="#">Temperature & Heat</a>
+            <a href="#">Fluids</a>
+            <a href="#">About Us</a>
+        </div>
+        <div>
+            <h3 href="#">Resources</h3>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+        </div>
+    </footer>
 </body>
 </html>
