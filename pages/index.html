@@ -29,32 +29,31 @@
         }
     </script>
 </head>
+
 <body class="bg-slate-900 text-gray-100 font-sans antialiased">
-        <nav class="fixed top-0 w-full z-50 glass">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav class="fixed top-0 w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
-                <h1 class="text-xl font-bold gradient-text">CALPH++</h1>
+                <div class="text-xl font-bold gradient-text">CALPH++</div>
                 <div class="hidden md:flex space-x-8">
                     <a href="/pages/index.html" class="text-gray-300 hover:text-white transition-colors">Home</a>
                     <a href="/pages/about.html" class="text-gray-300 hover:text-white transition-colors"> About Us </a>
                 </div>
             </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="overview-section">
-            <div class="overview-details">
-                <h2>Calculus-Based Physics</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae
-                    pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu
-                    aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas
-                    iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.</p>
-            </div>
-            <div class="overview-image-container">
-                <img src="/images/physics_image.jpg" alt="Physics Image">
-            </div>
         </div>
+    </nav>
+    <main>
+        <!-- Overview Section -->
+        <section class="min-h-screen flex flex-col md:flex-row items-center justify-center p-20 gap-8">
+            <div id="tsparticles" class="absolute inset-0 -z-10"></div>
+            <div class="w-200 h-200">
+                <h1 class="text-5xl font-bold gradient-text py-4">Calculus-Based Physics</h1>
+                <p class="text-lg text-gray-300 mx-auto">Welcome to the wonderful world of physics. Explore how calculus helps explain thermodynamics and energy transfer, and how it describes fluid statics and dynamics in the Fluids section.</p>
+            </div>
+            <div class="w-100 h-100">
+                <img src="/images/physics_image.jpg" class="max-w-full" alt="Physics Image">
+            </div>
+        </section>
         <div class="fun-fact-section">
             <div class="learn-more-details">
                 <h2>Did you know?</h2>
@@ -123,5 +122,18 @@
         </div>
     </footer>
 </body>
+<script>
+  tsParticles.load("tsparticles", {
+    background: {
+      color: "#0f172a"
+    },
+    particles: {
+      number: { value: 50 },
+      size: { value: 2 },
+      move: { enable: true, speed: 1 },
+      links: { enable: true, color: "#ffffff", distance: 100 }
+    }
+  });
+</script>
 
 </html>
