@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="/styles/main.css">
     <script src="scripts/main.js" defer></script>
     <link rel="stylesheet"
@@ -40,7 +41,7 @@
             </div>
         </div>
     </nav>
-    <main>
+    <main class="pt-16">
         <section class="about-page">
             <div>
                 <h2>About this Page</h2>
@@ -48,77 +49,139 @@
             </div>
             <img src="/images/about_image.jpg" alt="About Image">
         </div>
-        <section class="meet-the-team">
-            <h2>Meet Our Team</h2>
-<<<<<<< HEAD
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.</p>
-            <div>
-                <div>
-                    <img src="#" alt="#"/>
-                    <div>
-                        <img src="#" alt="#"/>
-                        <h3>Keana Consebido</h3>
-                        <p>"Quote"</p>
+        </section>
+        <section class="meet-the-team py-20 px-4 sm:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Meet Our Team</h2>
+
+            <div class="space-y-16">
+                <!-- Row 1 -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 justify-center text-center">
+                <!-- Keana Consebido -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 w-64 h-[400px] flex flex-col">
+                    <img src="https://scontent.fmnl45-2.fna.fbcdn.net/v/t39.30808-1/557718189_122208824198100115_7013248941532731753_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeH-TBXeiTrQVH4mLi1K02ZZpFUZp9Zu0YSkVRmn1m7RhLTH7cNI--ZGdB2eta3l3JLNzqxnwjOnEk9TIJDZFwvQ&_nc_ohc=oMVx1EZSdnoQ7kNvwGq_izW&_nc_oc=Adn4mN0fEUEJFWvBerS581z-6FO_ZYhtBCERdrMw80Q2DnvDzPoVCnSrTzgvssaw1drgFH2EkmWEoLA1YPLUAicz&_nc_zt=24&_nc_ht=scontent.fmnl45-2.fna&_nc_gid=CMYVGA9Sr3_y5hijg7kYxQ&oh=00_AfjnDvnBum0JGvzHZHNC_GAkWk3WgGHKmA_gW0xf1H8gyw&oe=69162FE4"
+                        alt="Keana Consebido" class="w-full h-56 object-cover" />
+                    <div class="p-4 flex flex-col justify-center flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Keana Consebido</h3>
+                        <p class="text-gray-400 italic mb-2">Developer</p>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-xl"></i></a>
                     </div>
-                </div> 
-                <div>
-                    <img src="#" alt="#"/>
-                    <div>
-                        <img src="#" alt="#"/>
-                        <h3>Ronald Abel</h3>
-                        <p>"Quote"</p>
                     </div>
-                </div> 
-                <div>
-                    <img src="#" alt="#"/>
-                    <div>
-                        <img src="#" alt="#"/>
-                        <h3>Justine Lagasca</h3>
-                        <p>"Quote"</p>
+                </div>
+
+                <!-- Ronald Abel -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 w-64 h-[400px] flex flex-col">
+                    <img src="https://scontent.fmnl45-1.fna.fbcdn.net/v/t39.30808-1/488220836_9399345260188820_3877284161128230758_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeENslK_6zpPmmPkX7xyAnH5fxdUQ9j23HZ_F1RD2Pbcds3Yug6ha-6chpKPxwDZG6k3DDc4NS4nBKeme3SEoC9V&_nc_ohc=EseQeeG0c5oQ7kNvwH4hB5j&_nc_oc=AdnK_oLxETJuA1iYr0QMaku3NaLmRdzVOPFui_MDU6VInm4c-Pitd66UV5-pT0FOrjxB4uv2rFbx623BXwoDVypp&_nc_zt=24&_nc_ht=scontent.fmnl45-1.fna&_nc_gid=OHgjn5wxVFsipxKJMsVhNw&oh=00_AfjvZbqy1XwZ6PztN_qJpwI_hi2kSEhdzmP39zV-2BPh8A&oe=69163E96"
+                        alt="Ronald Abel" class="w-full h-56 object-cover" />
+                    <div class="p-4 flex flex-col justify-center flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Ronald Abel</h3>
+                        <p class="text-gray-400 italic mb-2">Developer</p>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-xl"></i></a>
                     </div>
-                </div> 
-                <div>
-                    <img src="#" alt="#"/>
-                    <div>
-                        <img src="#" alt="#"/>
-                        <h3>Edward Joseph Zapico</h3>
-                        <p>"Quote"</p>
                     </div>
-                </div> 
-                <div>
-                    <img src="#" alt="#"/>
-                    <div>
-                        <img src="#" alt="#"/>
-                        <h3>John Patrick Piamonte</h3>
-                        <p>"Quote"</p>
+                </div>
+
+                <!-- Justine Lagasca -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 w-64 h-[400px] flex flex-col">
+                    <img src="https://scontent.fmnl45-2.fna.fbcdn.net/v/t39.30808-1/410456513_6633814453394581_2140920609548178281_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeHOJ7tu-gR4URajoUDvBY8vL1CEq_8cAvUvUISr_xwC9SINUHLybz46NKqkm9-WlR_FgMWqvXJUd-2bS1jwGy4D&_nc_ohc=3Sf-9NHMPqYQ7kNvwHRIQBy&_nc_oc=AdnE99Q4lCEvWWhtETxkplkRgTNVYHN8a47FKw7zv4dLVgnjKBzj0bdjsxlWwDiNtpS0zDImYdptEKLmQOp_dS-_&_nc_zt=24&_nc_ht=scontent.fmnl45-2.fna&_nc_gid=aVqUaseFT9I0LPijeBu5HA&oh=00_Afjb0A44_wEW_9CdVq3sVF2A4ovAnsqhDlTBe4HdjuSvuA&oe=691625B8"
+                        alt="Justine Lagasca" class="w-full h-56 object-cover" />
+                    <div class="p-4 flex flex-col justify-center flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Justine Lagasca</h3>
+                        <p class="text-gray-400 italic mb-2">Developer</p>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-xl"></i></a>
                     </div>
-                </div> 
-                <div>
-                    <img src="#" alt="#"/>
-                    <div>
-                        <img src="#" alt="#"/>
-                        <h3>Louie Garcia</h3>
-                        <p>"Quote"</p>
                     </div>
-                </div> 
-                <div>
-                    <img src="#" alt="#"/>
-                    <div>
-                        <img src="#" alt="#"/>
-                        <h3>Rico Montero</h3>
-                        <p>"Quote"</p>
+                </div>
+
+                <!-- Edward Joseph Zapico -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 w-64 h-[400px] flex flex-col">
+                    <img src="https://via.placeholder.com/200" 
+                        alt="Edward Joseph Zapico" class="w-full h-56 object-cover" />
+                    <div class="p-4 flex flex-col justify-center flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Edward Joseph Zapico</h3>
+                        <p class="text-gray-400 italic mb-2">Developer</p>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-xl"></i></a>
                     </div>
-                </div> 
-                <div>
-                    <img src="#" alt="#"/>
-                    <div>
-                        <img src="#" alt="#"/>
-                        <h3>Kristian Siegfreid Mancenon</h3>
-                        <p>"Quote"</p>
                     </div>
-                </div> 
+                </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-between text-center">
+                <!-- Kristian Siegfreid Mancenon -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 w-64 h-[400px] flex flex-col">
+                    <img src="https://scontent.fmnl45-2.fna.fbcdn.net/v/t39.30808-1/291787090_3266010777054448_550209418078140598_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeG8J5_jfPHYe07aM_iJb91pI2lpO7p85LgjaWk7unzkuFs4Qcfke1v9CMkL6Zj27OcWzSPg1j5PU9rlr_XfbBDE&_nc_ohc=9U6Vjztj4O8Q7kNvwHUihHe&_nc_oc=Adk7l5snYCZBhqdRumsa06cKgqTEj5ynVfSERlo-nWCVB9aanpz2rOUI5rUqNeWwGVe3VPvVI5iiJR4olt1dlF3j&_nc_zt=24&_nc_ht=scontent.fmnl45-2.fna&_nc_gid=l7mwrEWhJ-DkpzxzUInGFA&oh=00_Afhg2RalkKvN1c6Cvvqis08XuF-XsG9O1Lmefo5FExq1sg&oe=691632F0"
+                        alt="Kristian Siegfreid Mancenon" class="w-full h-56 object-cover" />
+                    <div class="p-4 flex flex-col justify-center flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Kristian Siegfreid Mancenon</h3>
+                        <p class="text-gray-400 italic mb-2">Researcher</p>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-xl"></i></a>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Louie Garcia -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 w-64 h-[400px] flex flex-col">
+                    <img src="https://scontent.fmnl45-2.fna.fbcdn.net/v/t39.30808-1/482343757_4036245246654883_8370002220082985900_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeH0lCx7EGTWhf9x35Bg_O4bLJ-vBn5VkB4sn68GflWQHgExRNo735vDU6G9-asCw29kF6ivjaPJ2qrGxOXltI4T&_nc_ohc=Isp0PgMhDj8Q7kNvwEW04mA&_nc_oc=AdmPnnqLX-_uyAyTI7RdeH1AEVxAx7eoccbbtYc_s69dPGoaNMLd3uNNFrJo204FWsbF4iKXucDRV3xXr0IbFjky&_nc_zt=24&_nc_ht=scontent.fmnl45-2.fna&_nc_gid=IuRkNmeZ95FfDY6H1rwgfg&oh=00_Afiip_oq5yBqnrvhknHJDBmnA0e-kx5LAlWrTWgxQA6BFg&oe=69164008"
+                        alt="Louie Garcia" class="w-full h-56 object-cover" />
+                    <div class="p-4 flex flex-col justify-center flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Louie Garcia</h3>
+                        <p class="text-gray-400 italic mb-2">Researcher</p>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-xl"></i></a>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Charls Gatchalian -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 w-64 h-[400px] flex flex-col">
+                    <img src="https://scontent.fmnl45-1.fna.fbcdn.net/v/t39.30808-1/468425362_902861245286391_7026711525803620768_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeEoAx3QV4bUKLkutFwbb32bR_4Wx25Pa31H_hbHbk9rfSnYkV4AzfvqpsEVoBK_1-i518GLWV6uVwgfhwaz--Mw&_nc_ohc=s4SSsG_aXToQ7kNvwEYixmS&_nc_oc=Adkb-aeRZkakNPrspEas5tGs5Mj43uNwESl3z89D_S5ZONgwVUlvaMeH169xXcuHO5CZvsuT9MQJ2K_W-zPCZ8s_&_nc_zt=24&_nc_ht=scontent.fmnl45-1.fna&_nc_gid=aFHBkC-VIjEWnhbl9rYH0g&oh=00_AfhMCd-9cqxZrpaxH8u0ScrfOHNI42gM_BdDXqB4Zq2VpQ&oe=69161CFF"
+                        alt="Charls Gatchalian" class="w-full h-56 object-cover" />
+                    <div class="p-4 flex flex-col justify-center flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Charls Gatchalian</h3>
+                        <p class="text-gray-400 italic mb-2">Researcher</p>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-xl"></i></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 justify-center text-center">
+                <!-- John Patrick Piamonte -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 w-64 h-[400px] flex flex-col">
+                    <img src="https://scontent.fmnl45-2.fna.fbcdn.net/v/t39.30808-1/548198991_3237629959723425_1903803998475156591_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeEThjkCHVm4ZViVZSpimETXjphbHajVyA2OmFsdqNXIDejWJLeFX-_FfXcgUf6aVknyVYUyCso9fefUn6ETuq8X&_nc_ohc=PKHZtLv3bNkQ7kNvwEMAjWQ&_nc_oc=AdlPmZKblH6nrbMYob6cPX4lY6guZnA0nQ2VB6WsJQut-jXBV1nB6RoccOG0MPfcVrRwoce10XZEJIqMXc7crZw8&_nc_zt=24&_nc_ht=scontent.fmnl45-2.fna&_nc_gid=OujFZc8fzVwLw-KgBoMuqA&oh=00_AfjPxBDUn5BPdXgOeduZbEaCiVpjSWNflNUgJztUse__6A&oe=69164EC5"
+                        alt="John Patrick Piamonte" class="w-full h-56 object-cover" />
+                    <div class="p-4 flex flex-col justify-center flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">John Patrick Piamonte</h3>
+                        <p class="text-gray-400 italic mb-2">Documentator</p>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-xl"></i></a>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Rico Montero -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 w-64 h-[400px] flex flex-col">
+                    <img src="https://scontent.fmnl45-2.fna.fbcdn.net/v/t39.30808-1/549277519_1513673239979692_7839129164684117540_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGya2QWgCAhCjuycpA7_s52bi7d8hT5kHduLt3yFPmQdz3QhKpu_b5vWUTJS2hy9G6VuQ_-lmNVU8e8W2B8Oh_I&_nc_ohc=nVL9P60r9F0Q7kNvwEqfywL&_nc_oc=AdnNEvVdNEomTVjoX6uSrtAwd50o0oKkACZSQJVNZLzz_ZORVgF9ko85jCKhdoPZ3w561dxcqPmTlXpcl--lnENh&_nc_zt=24&_nc_ht=scontent.fmnl45-2.fna&_nc_gid=iHuTYWE5bAlUqs0iGkHHhQ&oh=00_Afg6X5r2BtCpEjJvAkZXtjA2PJmoAlnuTkC7gGaAnFT31Q&oe=69163030"
+                        alt="Rico Montero" class="w-full h-56 object-cover" />
+                    <div class="p-4 flex flex-col justify-center flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Rico Montero</h3>
+                        <p class="text-gray-400 italic mb-2">Documentator</p>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook text-xl"></i></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
         </section>
+
         <footer class="bg-slate-800/50  border-t border-slate-700 mt-20">
             <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-2 gap-8">
                 <div>
