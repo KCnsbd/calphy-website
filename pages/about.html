@@ -42,10 +42,11 @@
         </div>
     </nav>
     <main class="pt-16">
-        <section class="py-20 px-4 sm:px-8 bg-slate-800/30">
-            <div class="max-mx-auto flex">
-                <div class="space-y-2">
-                    <h2 class="text-4xl md:text-5xl font-bold gradient-text animate-fade-in py-4">About this page</h2>
+        <section class="py-20 px-4 sm:px-8 bg-slate-800/30 relative">
+            <div id="tsparticles" class="absolute inset-0 -z-10"></div>
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+                <div class="space-y-6">
+                    <h2 class="text-4xl md:text-5xl font-bold gradient-text animate-fade-in">About CALPH++</h2>
                     <p class="text-gray-300 text-lg leading-relaxed animate-slide-up">Welcome to CALPH++ (Calculus-Based Physics), your comprehensive guide to understanding the fundamental principles of physics through the lens of calculus. This educational website is designed to help students and enthusiasts explore how mathematical tools unlock deeper insights into the physical world.</p>
                     <p class="text-gray-300 text-lg leading-relaxed animate-slide-up">We focus on two essential topics: <span class="text-indigo-400 font-semibold">Temperature and Heat</span>, exploring thermodynamics and energy transfer, and <span class="text-indigo-400 font-semibold">Fluids</span>, examining the behavior of liquids and gases through statics and dynamics. Our goal is to make complex concepts accessible and engaging through clear explanations, interactive examples, and real-world applications.</p>
                     <p class="text-gray-300 text-lg leading-relaxed animate-slide-up">Whether you're a Computer Science student learning about simulations and algorithms, or an Entertainment and Multimedia Computing enthusiast interested in realistic animations and special effects, understanding calculus-based physics is essential for bringing your digital creations to life.</p>
@@ -208,7 +209,19 @@
                 <p class="text-center text-gray-500">&copy; 2025 CALPH++. All Rights Reserved.</p>
             </div>
         </footer>
-        </div>
     </main>
 </body>
+<script>
+  tsParticles.load("tsparticles", {
+    background: {
+      color: "#0f172a"
+    },
+    particles: {
+      number: { value: 50 },
+      size: { value: 2 },
+      move: { enable: true, speed: 1 },
+      links: { enable: true, color: "#ffffff", distance: 100 }
+    }
+  });
+</script>
 </html>
